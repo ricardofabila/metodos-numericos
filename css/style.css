@@ -1,0 +1,14 @@
+/* YOUR CUSTOM STYLES */
+.ct-chart .ct-point {
+  /* Colour of your points */
+  stroke: #ef4747;
+  /* Size of your points */
+  stroke-width: 1px;
+}
+
+.ct-chart .ct-point {
+  /* Colour of your points */
+  stroke: #75aaff;
+  /* Size of your points */
+  stroke-width: 10px;
+}
