@@ -8,10 +8,10 @@ function getY( func, x ) {
 
 function derivative(f,x) {
   
-  let h = 0.0001
-  let a = getY(f,x+h)
+  let h = 0.0001;
+  let a = getY(f,x+h);
   //console.log(a);
-  let b = getY(f,x)
+  let b = getY(f,x);
   //console.log(b);
   let dy = (a - b)/h;
   //console.log( "f\'(" + x + ") = " + dy );

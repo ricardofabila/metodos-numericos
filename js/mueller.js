@@ -2,7 +2,7 @@ function findRoot(a, b, c, func, errorDeseado) {
 	
 	errorDeseado = math.abs(errorDeseado);
 	
-	let temp = 1;
+	let temp = 100;
 	let d = 0;
 	
 	while (temp > errorDeseado){
